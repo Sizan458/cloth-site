@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloth Shop</title>
+    <link rel="shortcut icon" href="images/shopping-online_1390737.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="style.css">
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          backgroundImage: {
+           'bg-img':"url('images/arrangement-black-friday-shopping-carts-with-copy-space.jpg')"
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <!-- nav start -->
+   <div class="navbar  bg-info-content">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <label tabindex="0" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+      </label>
+      <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+        <li>
+          <div class="join">
+            <input class="input input-bordered join-item" placeholder="Search here...."/>
+            <button class="btn join-item rounded-r-full">Search</button>
+          </div>
+        </li>
+        
+        <li>
+          <a>English (united States)</a>
+          <ul class="p-2 bg-secondary-content">
+            <li><a>Bangla</a></li>
+            <li><a>Hindi</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+    </div>
+    <div class="flex">
+        <img class="w-6" src="images/shopping-online_1390737.png" alt="">
+    <a class="btn btn-ghost normal-case text-xl"><span><h2 class="text-red-700">O</h2></span>Shop</a>
+
+</div>
+
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li>
+        <div class="join">
+          <input class="input input-bordered join-item" placeholder="Search here...."/>
+          <button class="btn join-item rounded-r-full">Search</button>
+        </div>
+      </li>
+      
+      
+      <li tabindex="0">
+        <details>
+          <summary>English (united States)</summary>
+          <ul class="p-2 ">
+            <li><a>Bangla</a></li>
+            <li><a>Hindi</a></li>
+          </ul>
+        </details>
+      </li>
+     
+    </ul>
+  </div>
+  <div class="navbar-end">
+    <a class="btn mr-1 bg-primary text-white">Login</a>
+    <a class="btn bg-neutral-content text-white">Sign Up</a>
+  </div>
+</div>
+<!-- nav end -->
+<!-- sign in section start -->
+<header>
+  <div class="hero min-h-screen bg-bg-img   ">
+    
+   
+    <div class="hero-content gap-2  flex-col lg:flex-row-reverse">
+      
+      <div class="text-center lg:text-left">
+        <h1 class="text-5xl font-bold text-rose-700">Login now!</h1>
+        <img class="h-4/5 mt-5" src="images/pic1.jpeg" alt="">
+      </div>
+      <div class="card flex-shrink-0 w-full max-w-sm">
+        <div class="card-body ">
+          <div class="form-control ">
+            <label class="label">
+              <span class="label-text">Email</span>
+            </label>
+            <input type="text" placeholder="email" class="input input-bordered  " />
+          </div>
+          <div class="form-control">
+            <label class="label">
+              <span class="label-text">Password</span>
+            </label>
+            <input type="text "  placeholder="password" class="input input-bordered " />
+            <label class="label">
+              <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+            </label>
+          </div>
+          <div class="form-control mt-6 ">
+         <div class="flex gap-3 items-center justify-center">
+
+            <button class="btn bg-primary  w-[98px] text-white">Login</button>
+            <button class="btn bg-neutral-content w-[98px] text-white ">Sign up</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- sign in section end -->
+</body>
+</html>
